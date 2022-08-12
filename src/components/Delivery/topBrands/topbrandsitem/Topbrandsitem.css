@@ -1,0 +1,21 @@
+.brand-img{
+    height: 160px;
+    width: 160px;
+    background-color: white;
+    /* border: 1px solid red; */
+    box-shadow: rgb(0,0, 0/8%) 0px 3px 12px;
+    border-radius: 8px;
+    }
+    .brand-image{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        border-radius: 8px;
+    }
+    .brand-title{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 6px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }

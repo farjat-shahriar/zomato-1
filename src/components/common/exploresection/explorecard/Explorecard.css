@@ -1,0 +1,90 @@
+.explore-card{
+    margin: 12px 0px 24px 0px;
+    padding: 15px;
+    border-radius: 15px;
+   
+    border: 1px solid transparent;
+    cursor: pointer;
+   
+}
+
+.explore-card-cover{
+    height: 240px;
+    width: 320px;
+    border-radius: 15px;
+    padding: 15px 0px 0px;
+    position: relative;
+   
+}
+
+.explore-card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    
+}
+.explore-time{
+position: absolute;
+right: 10px;
+bottom: 10px;
+background-color: white;
+opacity: 0.8;
+backdrop-filter:blur(4px);
+font-size: 12px;
+font-weight: 500;
+padding: 2px 5px 3px;
+border-radius: 4px;
+}
+.explore-data{
+   background-color: #256fef;
+   color: white;
+   position: absolute;
+   font-size: 12px;
+   font-weight: 500;
+   bottom: 10px;
+   margin-left: 10px;
+   border-radius: 4px;
+   padding: 4px;
+}
+.res-row{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 8px 0px 6px; */
+}
+.explore-name{
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: 600;
+}
+.explore-rating{
+    background-color: rgb(13, 122, 13);
+    color: white;
+    height: 24px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px 4px 0px ;
+    border-radius: 6px;
+}
+.explore-address{
+    max-width: 56%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  
+}
+.explore-price{
+    max-width: 56%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+} 
+.separator{
+    border: 0.3px solid rgb(207, 207, 207);
+}
